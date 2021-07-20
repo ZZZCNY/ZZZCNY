@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ZZZCNY
 - 👀 I’m interested in 学习
-- 🌱 I’m currently learning Java, Python, CSS3, HTML5
+- 🌱 I’m currently learning ...
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ... chenyang-z@qq.com
 
