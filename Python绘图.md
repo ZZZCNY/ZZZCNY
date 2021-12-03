@@ -1,6 +1,4 @@
-# 2021年5月30日
-
-## Python
+# Python
 
 1. Matplotlib绘图时显示中文
 
