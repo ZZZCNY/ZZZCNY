@@ -1,17 +1,33 @@
 # npm
 
 ```powershell
-npm i react
+npx create-react-app my-app
 ```
 
 ```powershell
-npm i react-dom
+npm install axios
 ```
 
 ```powershell
-npm i @babel/standalone
+npm install react-router-dom@5.3.0
 ```
 
 ```powershell
-npm i jquery
+npm install express
+```
+
+```powershell
+npm install --save-dev nodemon
+```
+
+```powershell
+npm install morgan
+```
+
+```powershell
+npm install cors
+```
+
+```powershell
+npm i eslint-plugin-react-hooks
 ```
