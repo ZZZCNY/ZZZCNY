@@ -31,3 +31,7 @@ npm install cors
 ```powershell
 npm i eslint-plugin-react-hooks
 ```
+
+```powershell
+npm install mongoose
+```
