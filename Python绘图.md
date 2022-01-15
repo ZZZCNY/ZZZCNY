@@ -1,6 +1,6 @@
 # Python
 
-1. Matplotlib绘图时显示中文
+1. Matplotlib 绘图时显示中文
 
    ```python
    from pylab import mpl
@@ -64,7 +64,7 @@
         rule_low = (data_ser < val_low) # 小于下边缘的值
         rule_up = (data_ser > val_up) # 大于上边缘的值
         return (rule_low, rule_up), (val_low, val_up)
-    
+
     scale = 3
     rule, value = box_plot_outliers(kobe['shot_distance'], box_scale = scale)
     kobe = kobe.reset_index(drop = True)
