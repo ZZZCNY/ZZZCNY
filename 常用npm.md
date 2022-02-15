@@ -35,3 +35,7 @@ npm i eslint-plugin-react-hooks
 ```powershell
 npm install mongoose
 ```
+
+```powershell
+npm i dotenv
+```
