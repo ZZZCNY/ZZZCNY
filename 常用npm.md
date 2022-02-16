@@ -1,41 +1,85 @@
 # npm
 
+## 前端
+
+> 目前来说，创建一个 React 应用最简单的方式是使用一个叫做 create-react-app 的工具。如果你随着 node 安装的 npm 工具版本号不小于 5.3，你就可以（也不是必须的）在机器上安装 create-react-app 了。
+
 ```powershell
 npx create-react-app my-app
 ```
+
+> 也就是说，我们将使用 axios 库来代替浏览器和服务器之间的通信。它的功能类似于 fetch，但是使用起来更友好。使用 axios 的另一个很好的理由是，我们已经熟悉了为 React 项目添加外部库，即使用所谓的 npm 包。
 
 ```powershell
 npm install axios
 ```
 
+> 幸运的是 React 有 React-router 库，它为管理 React-application 中的导航提供了一个很好的解决方案。
+
 ```powershell
 npm install react-router-dom@5.3.0
 ```
+
+## 后端
+
+> 为了提供一个比内置的 http 模块更友好的界面，许多库已经开发出来，以简化使用 Node 作为服务器端开发。这些库致力于为构建后台服务器的一般的用例提供一个更好的抽象，到目前为止，最受欢迎的库是 express。
 
 ```powershell
 npm install express
 ```
 
+> nodemon 将监视启动 nodemon 的目录中的文件，如果任何文件发生更改，nodemon 将自动重启 node 应用。
+
 ```powershell
 npm install --save-dev nodemon
 ```
 
+> 在你的日志应用中添加 morgan 中间件。将其配置为基于 tiny 配置，将消息记录到控制台。
+
 ```powershell
 npm install morgan
 ```
+
+> 我们可以通过使用 Node 的 cors 中间件来允许来自其他源的请求。
 
 ```powershell
 npm install cors
 ```
 
 ```powershell
-npm i eslint-plugin-react-hooks
+npm install eslint-plugin-react-hooks
 ```
+
+> Mongoose 可以被描述为 object document mapper （ODM），并且将 JavaScript 对象保存为 Mongo 文档对于 Mongoose 库来说很简单。
 
 ```powershell
 npm install mongoose
 ```
 
+> 有很多方法可以定义环境变量的值。一个更复杂的方法是使用 dotenv，你可以使用如下命令安装库:
+
 ```powershell
-npm i dotenv
+npm install dotenv
+```
+
+> 在 JavaScript 的世界里，目前主要的静态分析工具又名“linting”是 ESlint。
+
+```powershell
+npm install eslint --save-dev
+npx eslint --init
+```
+
+> 许多公司定义了通过 ESlint 配置文件在整个组织中执行的编码标准。建议不要一遍又一遍地使用重造轮子，从别人的项目中采用现成的配置到自己的项目中可能是一个好主意。最近，很多项目都采用了 Airbnb 的 Javascript 风格指南，使用了 Airbnb 的 ESlint 。
+
+```powershell
+npx install-peerdeps --dev eslint-config-airbnb
+```
+
+## 测试
+
+> 有许多不同的测试库或者 test runner 可用于 JavaScript。在本课程中，我们将使用一个由 Facebook 内部开发和使用的测试库，这个测试库名为 jest，类似于之前 JavaScript 测试库之王 Mocha。
+> 对于本课程来说，Jest 是一个自然的选择，因为它可以很好地测试后端，并且在测试 React 应用时表现出色。
+
+```powershell
+npm install --save-dev jest
 ```
