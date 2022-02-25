@@ -20,6 +20,14 @@ npm install axios
 npm install react-router-dom@5.3.0
 ```
 
+```powershell
+npm install antd --save
+```
+
+```powershell
+npm install --save @ant-design/icons
+```
+
 ## 后端
 
 > 为了提供一个比内置的 http 模块更友好的界面，许多库已经开发出来，以简化使用 Node 作为服务器端开发。这些库致力于为构建后台服务器的一般的用例提供一个更好的抽象，到目前为止，最受欢迎的库是 express。
@@ -73,6 +81,36 @@ npx eslint --init
 
 ```powershell
 npx install-peerdeps --dev eslint-config-airbnb
+```
+
+> 人们开始怀疑，是否有可能重构代码以从方法中消除 catch？express-async-errors 库为此提供了一个解决方案。
+
+```powershell
+npm install express-async-errors
+```
+
+> 让我们来安装 bcrypt 用来生成密码的哈希值。
+
+```powershell
+npm install bcrypt
+```
+
+替代
+
+```powershell
+npm i bcryptjs
+```
+
+> 让我们在 Mongoose validator 的帮助下验证用户名的唯一性。正如我们在练习 3.19 中提到的，Mongoose 并没有内置的 validator 来检查某个字段的唯一性。我们可以使用一个现成的解决方案 mongoose-unique-validator 这个 npm 包，先安装一下：
+
+```powershell
+npm install mongoose-unique-validator
+```
+
+> 安装 jsonwebtoken 库， 它会允许我们生成 Json Web Token。
+
+```
+npm install jsonwebtoken
 ```
 
 ## 测试
