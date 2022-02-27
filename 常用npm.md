@@ -21,6 +21,10 @@ npm install react-router-dom@5.3.0
 ```
 
 ```powershell
+npm install react-router-dom@6
+```
+
+```powershell
 npm install antd --save
 ```
 
