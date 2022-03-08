@@ -32,6 +32,12 @@ npm install antd --save
 npm install --save @ant-design/icons
 ```
 
+> 如果我们希望使用 Togglable 组件时，强制给按钮一个 label text 属性值。
+
+```powershell
+npm install prop-types
+```
+
 ## 后端
 
 > 为了提供一个比内置的 http 模块更友好的界面，许多库已经开发出来，以简化使用 Node 作为服务器端开发。这些库致力于为构建后台服务器的一般的用例提供一个更好的抽象，到目前为止，最受欢迎的库是 express。
