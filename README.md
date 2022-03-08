@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @ZZZCNY
-- 👀 I’m interested in 学习
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ... chenyang-z@qq.com
+- 👋 大家好, 我是 周晨阳
+- 👀 我对前端开发感兴趣
+- 🌱 我正在学习 React
+- 💞️ 我正在寻找前端开发的工作
+- 📫 邮箱：chenyang-z@qq.com
 
 <!---
 ZZZCNY/ZZZCNY is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
