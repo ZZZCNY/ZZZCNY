@@ -126,14 +126,39 @@ npm install jsonwebtoken
 ## 测试
 
 > 有许多不同的测试库或者 test runner 可用于 JavaScript。在本课程中，我们将使用一个由 Facebook 内部开发和使用的测试库，这个测试库名为 jest，类似于之前 JavaScript 测试库之王 Mocha。
+>
 > 对于本课程来说，Jest 是一个自然的选择，因为它可以很好地测试后端，并且在测试 React 应用时表现出色。
 
 ```powershell
 npm install --save-dev jest
 ```
 
-> 除了 Jest 之外，我们还需要另一个测试库，它将帮助我们以测试目的渲染组件。 目前最好的选择是react-testing-library ，这个库在最近几年迅速流行起来。
+> 们可以通过如下命令安装 cross-env 作为一个开发依赖包。
+
+```powershell
+npm install --save-dev cross-env
+```
+
+> 除了 Jest 之外，我们还需要另一个测试库，它将帮助我们以测试目的渲染组件。 目前最好的选择是 react-testing-library ，这个库在最近几年迅速流行起来。
 
 ```powershell
 npm install --save-dev @testing-library/react @testing-library/jest-dom
+```
+
+> 在过去的一年里，E2E 库 Cypress 变得非常流行。 Cypress 是非常容易使用，与 Selenium 相比需要少得多麻烦和头痛问题。
+>
+> 它的操作原理与大多数 E2E 测试库完全不同，因为 Cypress 测试完全在浏览器中运行。
+>
+> 其他库在一个 node 进程中运行测试，进程通过一个 API 连接到浏览器。
+
+```powershell
+npm install --save-dev cypress
+```
+
+> 我们的测试使用的变量 cy 给了我们一个讨厌的 Eslint 错误。
+>
+> 我们可以通过安装eslint-plugin-cypress作为开发依赖项来摆脱这个报错。
+
+```powershell
+npm install eslint-plugin-cypress --save-dev
 ```
