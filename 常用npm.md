@@ -131,3 +131,9 @@ npm install jsonwebtoken
 ```powershell
 npm install --save-dev jest
 ```
+
+> 除了 Jest 之外，我们还需要另一个测试库，它将帮助我们以测试目的渲染组件。 目前最好的选择是react-testing-library ，这个库在最近几年迅速流行起来。
+
+```powershell
+npm install --save-dev @testing-library/react @testing-library/jest-dom
+```
