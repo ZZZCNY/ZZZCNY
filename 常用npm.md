@@ -38,6 +38,18 @@ npm install --save @ant-design/icons
 npm install prop-types
 ```
 
+> Facebook 有一个 Flux 的实现，但是我们会使用 Redux 库。 它使用相同的原理，但是更简单一些。 Facebook 现在也使用 Redux 而不是原来的 Flux。
+
+```powershell
+npm install redux
+```
+
+> 我们还将添加 deep-freeze 库 ，它可以用来确保 reducer 被正确定义为不可变函数。
+
+```powershell
+npm install --save-dev deep-freeze
+```
+
 ## 后端
 
 > 为了提供一个比内置的 http 模块更友好的界面，许多库已经开发出来，以简化使用 Node 作为服务器端开发。这些库致力于为构建后台服务器的一般的用例提供一个更好的抽象，到目前为止，最受欢迎的库是 express。
@@ -157,7 +169,7 @@ npm install --save-dev cypress
 
 > 我们的测试使用的变量 cy 给了我们一个讨厌的 Eslint 错误。
 >
-> 我们可以通过安装eslint-plugin-cypress作为开发依赖项来摆脱这个报错。
+> 我们可以通过安装 eslint-plugin-cypress 作为开发依赖项来摆脱这个报错。
 
 ```powershell
 npm install eslint-plugin-cypress --save-dev
