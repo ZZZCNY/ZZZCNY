@@ -174,3 +174,23 @@ npm install --save-dev cypress
 ```powershell
 npm install eslint-plugin-cypress --save-dev
 ```
+
+## React Native
+
+> 在我们的应用开发中，使用到的是 Expo。Expo 是一个简化了 React Native 应用的安装、开发、构建以及部署的平台。我们通过安装 expo-cli 命令行工具来开始吧。
+
+```powershell
+npm install --global expo-cli
+```
+
+> 下一步，我们在 rate-repository-app 文件夹中运行如下命令，来初始化我们的项目。
+
+```powershell
+expo init rate-repository-app --template expo-template-blank@sdk-40
+```
+
+> 通过 React Native 我们可以使用 React router 的核心，包括 hooks 钩子和 components 组件。相比浏览器环境，主要区别是我们要将 BrowserRouter 替换为 React Native 适配的 NativeRouter， 这是由 react-router-native 这个类库提供的。让我们从安装这个 react-router-native 类库开始吧。
+
+```powershell
+npm install react-router-native
+```
