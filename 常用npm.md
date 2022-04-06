@@ -262,3 +262,60 @@ expo init rate-repository-app --template expo-template-blank@sdk-40
 ```shell
 npm install react-router-native
 ```
+
+## TypeScript
+
+> 在全局范围内同时安装 ts-node 和官方 TypeScript 包。
+
+```shell
+npm install -g ts-node typescript
+```
+
+> 正如我们在第 3 章中所做的，通过在空目录中运行命令 npm init 来设置 npm 项目。我们可以通过运行如下命令安装依赖：
+
+```shell
+npm install --save-dev ts-node typescript
+```
+
+> 由于全局变量 process 是由 Node 本身定义的，所以我们可以通过安装包 @types/node 来获得它的类型:
+
+```shell
+npm install --save-dev @types/node
+```
+
+> 让我们安装 eslint 和它的 TypeScript 扩展:
+
+```shell
+npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
+```
+
+> 像往常一样运行 npm init 并安装 typescript 包。
+
+```shell
+npm install typescript --save-dev
+```
+
+> 现在我们可以通过运行如下命令来初始化 tsconfig.json 设置:
+
+```shell
+npm run tsc -- --init
+```
+
+> 现在我们已经有了首选的配置集，让我们继续安装 express，当然还有 @types/express。由于这是一个真正的项目，并打算随着时间的推移而成长，我们将从一开始就使用 eslint:
+
+```shell
+npm install express
+npm install --save-dev eslint @types/express @typescript-eslint/eslint-plugin @typescript-eslint/parser
+```
+
+> 我们可以在 ts-node 中使用熟悉的 nodemon，但是正如我们前面看到的，ts-node-dev 可以做完全相同的事情，我们也可以继续使用它。
+
+```shell
+npm install --save-dev ts-node-dev
+```
+
+> 我们可以使用 create-react-app，通过在初始化脚本中添加一个额外的 template 参数，支持使用 TypeScript 创建应用的方法。 因此，为了使用 TypeScript 创建一个 Create React App，运行如下命令:
+
+```shell
+npx create-react-app my-app --template typescript
+```
