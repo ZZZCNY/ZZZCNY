@@ -319,3 +319,11 @@ npm install --save-dev ts-node-dev
 ```shell
 npx create-react-app my-app --template typescript
 ```
+
+## GraghQL
+
+> 让我们用当今领先的库Apollo-server实现一个 graphql 服务器。
+
+```shell
+npm install apollo-server graphql apollo-server-core
+```
