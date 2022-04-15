@@ -327,3 +327,9 @@ npx create-react-app my-app --template typescript
 ```shell
 npm install apollo-server graphql apollo-server-core
 ```
+
+> 创建一个新的 React-app 并安装 Apollo 客户端所需的依赖 Apollo client。
+
+```shell
+npm install @apollo/client graphql
+```
